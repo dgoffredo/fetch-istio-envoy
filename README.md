@@ -27,6 +27,20 @@ example:
 
     $ cd /tmp/tmp.A7FFDYU52Z
 
+    $ ls -l
+    -rw-rw-r-- 1 david david   41 Dec  6 20:04 envoy-commit
+    -rw-rw-r-- 1 david david   83 Dec  6 20:04 envoy-commit.url
+    -rw-rw-r-- 1 david david 2992 Dec  6 20:04 envoy-file
+    -rw-rw-r-- 1 david david  123 Dec  6 20:04 envoy-file.url
+    -rw-rw-r-- 1 david david   42 Dec  6 20:04 envoy-path
+    -rw-rw-r-- 1 david david   81 Dec  6 20:04 envoy-tree.url
+    -rw-rw-r-- 1 david david  335 Dec  6 20:04 istio-deps
+    -rw-rw-r-- 1 david david    7 Dec  6 20:04 istio-ref
+    -rw-rw-r-- 1 david david 1881 Dec  6 20:04 Makefile
+    -rw-rw-r-- 1 david david   41 Dec  6 20:04 proxy-tree
+    -rw-rw-r-- 1 david david   76 Dec  6 20:04 proxy-tree.url
+    -rw-rw-r-- 1 david david 4101 Dec  6 20:04 proxy-workspace
+
     $ nl -ba envoy-file | grep -w 'set_name'
         44    span_->set_name(operation);
 ```
